@@ -35,8 +35,8 @@ Refer the [git cheat sheet](https://github.com/darth10/git-info/blob/master/git-
 * Create branches by bugs and features, not by names or anything arbitrary.
 * Keep commits sane and atomic. Standarize a commit message format if possible.
 * Rebase often, and especially before creating a branch.
+* If you've made a mistake, `reset` what you've not pushed, and `revert` what you've pushed.
 * Establish a limited network of trust.
 * Use public repositories gloriously, for actual collaborative work.
 * Use `.gitignore` files.
-
 

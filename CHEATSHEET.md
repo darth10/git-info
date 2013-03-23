@@ -1,10 +1,12 @@
 ## Creating 
 
-![clone](http://git-scm.com/figures/18333fig0322-tn.png)
-
 ## Committing
 
 ![commits](http://git-scm.com/figures/18333fig0310-tn.png)
+
+## Cloning
+
+![clone](http://git-scm.com/figures/18333fig0322-tn.png)
 
 ## Syncing
 
@@ -19,5 +21,7 @@
 ![rebase](http://git-scm.com/figures/18333fig0329-tn.png)
 
 ![ff-merge](http://git-scm.com/figures/18333fig0330-tn.png)
+
+## Conflicts
 
 ## Extras

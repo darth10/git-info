@@ -52,7 +52,7 @@ TODO
 * List all branches using `git branch`. Use the `-a` option to include remote branches.
 * Create a new branch using `git checkout -b NEW_BRANCH`.
 
-![branch](http://git-scm.com/figures/18333fig0328-tn.png)
+![branch](http://git-scm.com/figures/18333fig0327-tn.png)
 
 * Merge commits into your current branch using `git merge BRANCH_TO_MERGE`.
 * Fast-forwards by default. Use the `--no-ff` option to skip fast-forward.

@@ -21,7 +21,11 @@
 
 ## Reverting
 
-TODO
+* Revert all changes in a file using `git checkout FILE`.
+* Revert a commit by creating a new commit using `git revert COMMIT`. Useful when you've pushed bad commits.
+* Revert a commit without creating a new commit using `git reset HEAD~NO_OF_COMMITS`. Useful when you have bad commits that are not yet pushed.
+* Use the `--hard` option with `git reset` to checkout the file as well. Use carefully.
+* To undo all changes in your working tree, use `git reset --hard HEAD`.
 
 ## Cloning
 
@@ -45,7 +49,6 @@ TODO
 ![fetch](http://git-scm.com/figures/18333fig0324-tn.png)
 
 * The `NEW_BRANCH` branch is actually named `ORIG_HEAD`.
-* Use the `--rebase` option to perform a rebase instead of a merge.
 
 ## Branching and Rebasing
 
@@ -71,8 +74,7 @@ TODO
 
 ## Conflicts
 
-TODO
-
-## Extras
-
-TODO
+* When you have conflicts, it means you better rebase our work, or else more people will run into conlicts. Of course, your work should be a separate branch if you have to rebase.
+* If a file as conflicts, use the `--theirs` or `--mine` option with `git checkout` to resolve conflicts. You can also do this manually.
+* Make sure you mark the file as resolved using `git add FILE`.
+* If you're performing a merge, commit the changes. If you're performing a rebase, continue the rebase using `git rebase --continue`.

@@ -39,7 +39,7 @@
 
 * Push using `git push REMOTE BRANCH`.
 * Use the `-f ` option to force overwriting the remote repository. Of course, you should have write permissions.
-* Use the `-a` option to push all branches.
+* Use the `--all` option to push all branches.
 * Use the `--tags` option to push tags.
 
 ### Pull
@@ -48,7 +48,7 @@
 
 ![fetch](http://git-scm.com/figures/18333fig0324-tn.png)
 
-* The `NEW_BRANCH` branch is actually named `ORIG_HEAD`.
+* The `NEW_BRANCH` branch is actually named `FETCH_HEAD`.
 
 ## Branching and Rebasing
 
